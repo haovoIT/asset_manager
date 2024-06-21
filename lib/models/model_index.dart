@@ -4,6 +4,6 @@ export 'department_model.dart';
 export 'diary_model.dart';
 export 'history_asset_model.dart';
 export 'kehoachkiemke.dart';
-export 'nhacungcap.dart';
 export 'nhomtaisan.dart';
+export 'supplier_model.dart';
 export 'thanhly.dart';

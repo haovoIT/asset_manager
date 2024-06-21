@@ -13,42 +13,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1e509c5-c34e-4545-a729-97ccc87ba1d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/choose_supplier.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/detail_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/expiration_date.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/index.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/name_contract_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/number_contract_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/signing_date.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/contract_edit_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pages/contract_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bloc/supplier_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bloc/supplier_edit_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/supplier_widget/address_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/supplier_widget/email_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/supplier_widget/index.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/supplier_widget/name_supplier_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/supplier_widget/phone_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/supplier_edit_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/db_supplier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/db_supplier_api.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Unnamed.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Template Flutter.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bloc/contract_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/contract_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/bloc_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/bloc_index.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bloc/contract_edit_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/contract_edit_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/nhacungcap_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/nhacungcap_bloc_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/supplier_bloc_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/nhacungcap_edit_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/nhacungcap_edit_bloc_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/supplier_edit_bloc_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/classes/validators.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/classes/validators.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/component/app_string.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/component/app_string.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/contract_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/contract_name.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/purpose_of_using.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/purpose_of_using.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/start_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/start_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_widget/custom_text_form_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/custom_text_form_field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/global_widget/department_widget/address_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/department_widget/address_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachHopDong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachHopDong.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/hopdong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/contract_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachNhaCungCap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachNhaCungCap.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/models/model_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/model_index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/contractEditPage.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/contractList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/contract_list_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/contractPage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/nhacungcap.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/supplier_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/leftDrawerWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/leftDrawerWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/nhacungcapEditPage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/nhacungcapList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/nhacungcapList.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/nhacungcapPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/supplier_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/page_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/page_index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/db_hopdong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/db_contract.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/db_hopdong_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/db_contract_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/db_nhacungcap.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/db_nhacungcap_api.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/services/service_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/service_index.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +98,7 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "D:/Hao/assets_manager",
+    "last_opened_file_path": "D:/Hao/check_in",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
@@ -112,11 +106,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hao\assets_manager\lib\global_widget\supplier_widget" />
       <recent name="D:\Hao\assets_manager\lib\models" />
       <recent name="D:\Hao\assets_manager\lib\global_widget" />
       <recent name="D:\Hao\assets_manager\assets" />
       <recent name="D:\Hao\assets_manager\assets\images" />
-      <recent name="D:\Hao\assets_manager\lib\component" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Hao\assets_manager\assets\font" />
@@ -214,5 +208,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/services/db_supplier_api.dart</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

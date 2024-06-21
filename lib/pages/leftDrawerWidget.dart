@@ -4,8 +4,8 @@ import 'package:assets_manager/pages/biencotaisan.dart';
 import 'package:assets_manager/pages/contract_page.dart';
 import 'package:assets_manager/pages/department_page.dart';
 import 'package:assets_manager/pages/gioithieu.dart';
-import 'package:assets_manager/pages/nhacungcapPage.dart';
 import 'package:assets_manager/pages/nhomtaisanPage.dart';
+import 'package:assets_manager/pages/supplier_page.dart';
 import 'package:assets_manager/pages/thongtinnguoidungEdit.dart';
 import 'package:assets_manager/pages/updatePassword.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -127,7 +127,7 @@ class _LeftDrawerWidgetsState extends State<LeftDrawerWidgets> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => NhaCungCapPage(),
+                      builder: (context) => SupplierPage(),
                     ),
                   );
                 },

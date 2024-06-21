@@ -22,6 +22,10 @@ abstract class MassageDbString {
   static const String ADD_ASSET_SUCCESS = "Thêm Tài Sản Thành Công";
   static const String ADD_ASSET_ERROR = "Thêm Tài Sản Thất Bại";
   static const String ADD_ASSET_ERROR_DUPLICATE = "Mã Tài Sản Đã Tồn Tại";
+  static const String ADD_SUPPLIER_SUCCESS = "Thêm Nhà Cung Cấp Thành Công";
+  static const String ADD_SUPPLIER_ERROR = "Thêm Nhà Cung Cấp Thất Bại";
+  static const String ADD_SUPPLIER_ERROR_DUPLICATE =
+      "Tên Nhà Cung Cấp Đã Tồn Tại";
   static const String ADD_CONTRACT_SUCCESS = "Thêm Hợp Đồng Thành Công";
   static const String ADD_CONTRACT_ERROR = "Thêm Hợp Đồng Thất Bại";
   static const String ADD_CONTRACT_ERROR_DUPLICATE =
@@ -41,6 +45,10 @@ abstract class MassageDbString {
   static const String GET_LIST_ASSET_SUCCESS =
       "Lấy Danh Sách Tài Sản Thành Công";
   static const String GET_LIST_ASSET_ERROR = "Lấy Danh Sách Tài Sản Thất Bại";
+  static const String GET_LIST_SUPPLIERS_SUCCESS =
+      "Lấy Danh Sách Nhà Cung Cấp Thành Công";
+  static const String GET_LIST_SUPPLIERS_ERROR =
+      "Lấy Danh Sách Nhà Cung Cấp Thất Bại";
   static const String GET_LIST_CONTRACT_SUCCESS =
       "Lấy Danh Sách Hợp Đồng Thành Công";
   static const String GET_LIST_CONTRACT_ERROR =
@@ -58,6 +66,9 @@ abstract class MassageDbString {
       "Lấy Danh Sách Lịch Sử Tài Sản Thất Bại";
   static const String UPDATE_ASSET_SUCCESS = "Cập Nhật Tài Sản Thành Công";
   static const String UPDATE_ASSET_ERROR = "Cập Nhật Tài Sản Thất Bại";
+  static const String UPDATE_SUPPLIER_SUCCESS =
+      "Cập Nhật Nhà Cung Cấp Thành Công";
+  static const String UPDATE_SUPPLIER_ERROR = "Cập Nhật Nhà Cung Cấp Thất Bại";
   static const String UPDATE_CONTRACT_SUCCESS = "Cập Nhật Hợp Đồng Thành Công";
   static const String UPDATE_CONTRACT_ERROR = "Cập Nhật Hợp Đồng Thất Bại";
   static const String UPDATE_DEPARTMENT_SUCCESS =
@@ -67,6 +78,8 @@ abstract class MassageDbString {
   static const String UPDATE_DIARY_ERROR = "Cập Nhật Khấu Hao Thất Bại";
   static const String DELETE_ASSET_SUCCESS = "Xóa Tài Sản Thành Công";
   static const String DELETE_ASSET_ERROR = "Xóa Tài Sản Thất Bại";
+  static const String DELETE_SUPPLIER_SUCCESS = "Xóa Nhà Cung Cấp Thành Công";
+  static const String DELETE_SUPPLIER_ERROR = "Xóa Nhà Cung Cấp Thất Bại";
   static const String DELETE_CONTRACT_SUCCESS = "Xóa Hợp Đồng Thành Công";
   static const String DELETE_CONTRACT_ERROR = "Xóa Hợp Đồng Thất Bại";
   static const String DELETE_DEPARTMENT_SUCCESS = "Xóa Phòng Ban Thành Công";
@@ -292,7 +305,33 @@ abstract class ContractString {
   static const String UPDATE_SUCCESS_MASSAGE = "Cập nhật Hợp đồng thành công.";
   static const String UPDATE_ERROR_MASSAGE = "Cập nhật Hợp đồng thất bại.";
   static const String HINT_SEARCH = "Nhập tên Hợp đồng....";
-  static const String ADD_CONTRACT = "Thêm Hợp đồng....";
+  static const String ADD_CONTRACT = "Thêm Hợp đồng";
+}
+
+abstract class SupplierString {
+  static const String EDIT_TITLE = "Thông thin Nhà Cung Cấp";
+  static const String TITLE_LIST_PAGE = "Danh Sách Nhà Cung Cấp";
+  static const String SUPPLIER = "Thông thin Nhà Cung Cấp";
+  static const String LABEL_NAME_SUPPLIER = "Tên Nhà Cung Cấp";
+  static const String LABEL_TEXT_ADDRESS = "Địa Chỉ";
+  static const String LABEL_TEXT_PHONE = "Số Điện Thoại";
+  static const String LABEL_EMAIL = "Email";
+  static const String REQUIRE_NAME_SUPPLIER = " Vui lòng nhập Tên Nhà Cung Cấp";
+  static const String REQUIRE_ADDRESS = " Vui lòng nhập Địa chỉ";
+  static const String REQUIRE_PHONE = " Vui lòng nhập Số điện thoại";
+  static const String REQUIRE_EMAIL = " Vui lòng nhập email";
+  static const String REQUIRE_PHONE_VALID = "Số điện thoại không đúng";
+  static const String REQUIRE_EMAIL_VALID = "Email không đúng";
+  static const String SUCCESS_MASSAGE = "Thêm Nhà Cung Cấp thành công.";
+  static const String ERROR_MASSAGE = "Thêm Nhà Cung Cấp thất bại.";
+  static const String UPDATE_SUCCESS_MASSAGE =
+      "Cập nhật Nhà Cung Cấp thành công.";
+  static const String UPDATE_ERROR_MASSAGE = "Cập nhật Nhà Cung Cấp thất bại.";
+  static const String HINT_SEARCH = "Nhập tên Nhà Cung Cấp....";
+  static const String ADD_SUPPLIER = "Thêm Nhà Cung Cấp";
+  static const String TITLE_CONFIRM_DELETE = "Xóa Nhà Cung Cấp";
+  static const String DETAIL_CONFIRM_DELETE =
+      "Bạn có chắc chắn muốn xóa Nhà cung cấp không?";
 }
 
 abstract class AppString {

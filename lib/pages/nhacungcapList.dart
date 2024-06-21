@@ -1,9 +1,8 @@
 import 'package:assets_manager/bloc/authentication_bloc.dart';
 import 'package:assets_manager/bloc/authentication_bloc_provider.dart';
-import 'package:assets_manager/bloc/nhacungcap_bloc.dart';
-import 'package:assets_manager/bloc/nhacungcap_bloc_provider.dart';
+import 'package:assets_manager/bloc/supplier_bloc.dart';
+import 'package:assets_manager/bloc/supplier_bloc_provider.dart';
 import 'package:assets_manager/services/db_authentic.dart';
-import 'package:assets_manager/services/db_nhacungcap.dart';
 import 'package:flutter/material.dart';
 
 class NhaCungCapList extends StatelessWidget {

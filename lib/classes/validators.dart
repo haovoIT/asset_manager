@@ -47,6 +47,20 @@ class Validators {
       return null;
   }
 
+  String? email(String? value, Map<String, dynamic> message) {
+    if (value!.isEmpty) {
+      return message['EMPTY_EMAIL'];
+    }
+
+    String pattern =
+        r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+    RegExp regex = RegExp(pattern);
+    if (!regex.hasMatch(value))
+      return message['VALID_EMAIL'];
+    else
+      return null;
+  }
+
   String? checkForDuplicates(String? valueCheck, String? valueDuplicate,
       Map<String, dynamic> message) {
     if (valueCheck!.isEmpty) {

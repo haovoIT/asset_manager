@@ -121,7 +121,6 @@ class ContractEditBloc {
       nameSupplier: selectContract.nameSupplier,
       detail: selectContract.detail,
     );
-    add ? dbCtApi.addContract(contract) : dbCtApi.updateContract(contract);
 
     if (add) {
       final response = await dbCtApi.addContract(contract);
