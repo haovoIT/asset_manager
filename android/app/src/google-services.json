@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96022108649",
+    "project_id": "assets-manager-70f2b",
+    "storage_bucket": "assets-manager-70f2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96022108649:android:47d6fde1ac01c2ef181378",
+        "android_client_info": {
+          "package_name": "domainname.assets_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96022108649-r8q6s9db51k8vj4l140ok4nu9mvoqol7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgHTwvL1CrTcWvq7ghoLj-Kyozup7ewtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96022108649-r8q6s9db51k8vj4l140ok4nu9mvoqol7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

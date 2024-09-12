@@ -12,7 +12,45 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1e509c5-c34e-4545-a729-97ccc87ba1d6" name="Default Changelist" comment="" />
+    <list default="true" id="d1e509c5-c34e-4545-a729-97ccc87ba1d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/choose_supplier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/detail_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/expiration_date.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/index.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/name_contract_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/number_contract_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/global_widget/contract_widget/signing_date.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/contract_edit_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/pages/contract_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Unnamed.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Template Flutter.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/contract_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/contract_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/contract_edit_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/contract_edit_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/component/app_string.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/component/app_string.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/contract_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/contract_name.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/purpose_of_using.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/purpose_of_using.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/global_widget/asset_widget/start_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/asset_widget/start_date.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/global_widget/custom_text_form_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/custom_text_form_field.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/global_widget/department_widget/address_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/global_widget/department_widget/address_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachHopDong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inPDF/inPDF_DanhSachHopDong.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/hopdong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/contract_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/model_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/model_index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/contractEditPage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/contractList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/contract_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/contractPage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/leftDrawerWidget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/leftDrawerWidget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/page_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/page_index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/db_hopdong.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/db_contract.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/db_hopdong_api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/db_contract_api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/service_index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/service_index.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,21 +95,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hao/assets_manager/lib/models&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;flutter.settings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "D:/Hao/assets_manager",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "flutter.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Hao\assets_manager\lib\models" />
